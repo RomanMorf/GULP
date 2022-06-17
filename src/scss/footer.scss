@@ -1,0 +1,54 @@
+.footer {
+  background: linear-gradient(
+    rgba(255, 255, 255, 1) 0%, 
+    rgba(255, 255, 255, 0.75) 20%, 
+    rgba(134, 83, 83, 0.35) 50%, 
+    rgba(255, 255, 255, 0.95) 100%), 
+    url(../img/footer.jpg);
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  &_title {
+    margin-top: 50px;
+    font-size: 50px;
+    transition: all 1s ease;
+    opacity: 0;
+    transform: translateY(50px);
+
+    &.animation {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+
+  &_text {
+    font-size: 30px;
+    transition: all 1s ease;
+    opacity: 0;
+    transform: translateY(100px);
+
+    &.animation {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  &_autor {
+    font-size: 30px;
+    transition: all 1s ease;
+    opacity: 0;
+    transform: translateY(100px);
+
+    &.animation {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+}

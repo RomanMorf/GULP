@@ -1,0 +1,11 @@
+@keyframes bliming {
+  0% {
+    box-shadow: 2px 2px 5px black;
+  }
+  50% {
+    box-shadow: 5px 8px 5px rgb(159, 159, 159);
+  }
+  100% {
+    box-shadow: 2px 2px 5px black;
+  }
+}
